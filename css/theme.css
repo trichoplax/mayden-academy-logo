@@ -1,0 +1,134 @@
+div {
+	position: absolute;
+	overflow: hidden;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+	filter: blur(0.27px);
+}
+
+.container-green-segment {
+	width: 151px;
+	height: 150px;
+	transform: rotate(294deg);
+	top: -49px;
+	left: -109px;
+	transition: transform 1s;
+}
+
+.green-segment {
+	background-color: #94ba66;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: 120px;
+}
+
+.container-cyan-segment {
+	width: 150px;
+	height: 150px;
+	transform: rotate(66deg);
+	top: -49px;
+	left: 109px;
+	transition: transform 1s;
+}
+
+.cyan-segment {
+	background-color: #298fb0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: 120px;
+}
+
+.orange-triangle {
+	top: 43px;
+	left: 55px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 45px solid #f27324;
+}
+
+.container-navy-truncated-sector {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.navy-truncated-sector {
+	top: 114px;
+	left: 30px;
+	width: 60px;
+	height: 0;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	border-bottom: 36px solid #295074;
+}
+
+.container-green-scythe {
+	width: 25px;
+	height: 10px;
+	top: 0px;
+	left: 52px;
+	
+}
+
+.green-circle {
+	width: 150px;
+	height: 150px;
+	top: 0px;
+	left: -50px;
+	background-color: #94ba66;
+	border-radius: 50%;
+}
+
+.white-circle {
+	width: 40px;
+	height: 40px;
+	top: 0px;
+	left: 1px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+
+.logo:hover .container-green-segment {
+	width: 151px;
+	height: 150px;
+	transform: rotate(1deg);
+	top: -49px;
+	left: -109px;
+}
+
+.green-segment:hover {
+	background-color: #94ba66;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: 120px;
+}
+
+.logo:hover .container-cyan-segment {
+	width: 150px;
+	height: 150px;
+	transform: rotate(0deg);
+	top: -49px;
+	left: 109px;
+}
+
+.original {
+	width: 151px;
+	height: 150px;
+	top: 160px;
+	background-image: url('../resources/logo-academy-solo.png');
+}
+
+.original2 {
+	width: 151px;
+	height: 150px;
+	left: 160px;
+	background-image: url('../resources/logo-academy-solo.png');
+}
